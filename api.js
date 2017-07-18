@@ -9,11 +9,11 @@ export function getMeta() {
 		children: [{
 			name: 'header',
 			component: 'Layout',
-			className: 'header',
+			className: 'mk-app-list-header',
 			children: [{
 				name: 'left',
 				component: 'Layout',
-				className: 'header-left',
+				className: 'mk-app-list-header-left',
 				children: ['姓名:', {
 					name: 'name',
 					component: 'Input',
@@ -53,7 +53,7 @@ export function getMeta() {
 			}]
 		}, {
 			name: 'content',
-			className: 'content',
+			className: 'mk-app-list-content',
 			component: 'Layout',
 			children: [{
 				name: 'dataGrid',
@@ -187,7 +187,7 @@ export function getMeta() {
 			}]
 		}, {
 			name: 'footer',
-			className: 'footer',
+			className: 'mk-app-list-footer',
 			component: 'Layout',
 			children: [{
 				name: 'pagination',

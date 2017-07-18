@@ -1,0 +1,20 @@
+{
+  "name": "mk-app-list",
+  "version": "1.0.0",
+  "description": "mk-app-list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziaochina/mk-app-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziaochina/mk-app-list/issues"
+  },
+  "homepage": "https://github.com/ziaochina/mk-app-list#readme"
+}
